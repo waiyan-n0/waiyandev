@@ -83,7 +83,7 @@ const Navbar = ({theme, toggleTheme,}) => {
                         size={28}/></a>
                 </Tooltip>
                 <Tooltip text='Download CV' position={currentWindowSize}>
-                    <a href="/myResume.pdf" target='_blank' rel="noopener noreferrer" download="WaiYanNaing_CV.pdf" className="transition-transform hover:scale-110"><TbFileCvFilled
+                    <a href="/public/Wai Yan Naing - Resume.pdf" target='_blank' rel="noopener noreferrer" download="WaiYanNaing_CV.pdf" className="transition-transform hover:scale-110"><TbFileCvFilled
                         size={28}/></a>
                 </Tooltip>
             </div>
