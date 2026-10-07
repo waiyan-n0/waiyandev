@@ -10,7 +10,7 @@ const Hero = ({theme}) =>{
     return (
         <Reveal>
             <div
-                className='px-8 md:py-16 flex flex-col-reverse lg:flex-row justify-center items-center lg:space-x-16 gap-4 lg:gap-0'>
+                className='px-8 md:py-16 flex flex-col-reverse lg:flex-row justify-center lg:space-x-16 gap-4 lg:gap-0'>
                 <div className='flex flex-col gap-6'>
                     <div>
                         <div className='font-bold text-3xl md:text-5xl md:pb-4 tracking-tight'>
