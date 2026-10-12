@@ -23,6 +23,13 @@ const Projects = () => {
             tags: ["Vite","React","Tailwind CSS"],
             githubLink: "https://github.com/waiyan-n0/todo-app",
             liveLink: "Processing"
+        },
+        {
+            title: t('project.prj-3'),
+            description: "Full-Stack MERN Recipe Platform built with React, Node.js, Express, and MongoDB. Features secure image uploads via Supabase Storage, Redis caching, and full production deployment on Render & Vercel.",
+            tags: ["Vite","React JS","Tailwind CSS","MongoDB Atlas","Supabase"],
+            githubLink: "https://github.com/waiyan-n0/cookbookMM",
+            liveLink: "https://cookbook-mm.vercel.app/"
         }
     ];
 
