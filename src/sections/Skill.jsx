@@ -16,7 +16,7 @@ const Skill = () => {
 
                 <div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
                     <div className='flex flex-col gap-4'>
-                        <label className="text-xs uppercase tracking-widest font-bold text-slate-400">
+                        <label className="uppercase font-[MighaBold] tracking-wider font-bold text-slate-400 ">
                             {t('skills.frontend')}
                         </label>
                         <div className='flex flex-wrap gap-2'>
@@ -28,7 +28,7 @@ const Skill = () => {
                     </div>
 
                     <div className='flex flex-col gap-4'>
-                        <label className="text-xs uppercase tracking-widest font-bold text-slate-400">
+                        <label className="uppercase font-[MighaBold] tracking-wider font-bold text-slate-400">
                             {t('skills.backend')}
                         </label>
                         <div className="flex flex-wrap gap-2">
@@ -42,7 +42,7 @@ const Skill = () => {
                     </div>
 
                     <div className='flex flex-col gap-4'>
-                        <label className="text-xs uppercase tracking-widest font-bold text-slate-400">
+                        <label className="uppercase font-[MighaBold] tracking-wider font-bold text-slate-400">
                             {t('skills.tools')}
                         </label>
                         <div className="flex flex-wrap gap-2">

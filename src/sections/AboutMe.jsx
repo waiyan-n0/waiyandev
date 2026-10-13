@@ -20,11 +20,11 @@ const AboutMe = () => {
                 </div>
                 <span className='flex flex-row pt-4 gap-4'>
                 <a href="/WaiYanNaing-Resume.pdf" target='_blank' rel="noopener noreferrer" download="WaiYanNaing_CV.pdf"
-                   className='py-2 px-6 bg-blue-400 rounded-xl font-semibold hover:bg-blue-600 w-auto text-sm md:text-lg md:w-auto text-white'>
+                   className='py-2 px-6 bg-blue-800 rounded-xl font-semibold hover:bg-[#051DB0] w-auto text-sm md:text-lg md:w-auto text-white'>
                     {t('aboutMe.btnDownload')}
                 </a>
                 <a href='https://t.me/waiyandev' target={'_blank'}
-                   className='flex items-center py-2 px-6 bg-transparent border-2 border-blue-400 rounded-xl font-semibold hover:bg-blue-400 hover:text-white text-sm md:text-lg md:w-auto'>
+                   className='flex items-center py-2 px-6 bg-transparent border-2 border-blue-800 rounded-xl font-semibold hover:bg-[#051DB0] hover:border-[#051DB0] hover:text-white text-sm md:text-lg md:w-auto'>
                     {t('aboutMe.btnContact')}
                 </a>
             </span>

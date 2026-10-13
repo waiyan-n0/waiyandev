@@ -35,7 +35,7 @@ const LoadingScreen = () => {
                 {letters.map((char, index) => (
                     <motion.span key={index}
                         variants={letterVariants}
-                        className="text-2xl md:text-7xl font-bold"
+                        className="text-2xl md:text-7xl font-bold font-[MighaBold] tracking-wide"
                     >
                         {char === " " ? "\u00A0" : char}
                     </motion.span>

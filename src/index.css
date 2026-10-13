@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 /*@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');*/
 @layer base {
     body {
@@ -12,6 +13,22 @@
     font-family: 'BurmeseFont';
     src: url('assets/fonts/AyarJuno-2LO8.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Migha';
+    src: url('fonts/Migha-Black.otf') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MighaBold';
+    src: url('fonts/Migha-Bold.otf') format('woff2');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }

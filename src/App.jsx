@@ -38,9 +38,6 @@ function App() {
         localStorage.setItem('theme', theme);
     },[theme]);
     const toggleTheme = () => {
-        // themeTransition(e, ()=>{
-        //     setTheme((prevTheme)=> (prevTheme === 'light' ? 'dark' : 'light'));
-        // })
         setTheme((prevTheme)=> (prevTheme === 'light' ? 'dark' : 'light'));
     }
     // console.log(window.innerWidth);
