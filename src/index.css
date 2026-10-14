@@ -19,7 +19,7 @@
 
 @font-face {
     font-family: 'Migha';
-    src: url('fonts/Migha-Black.otf') format('woff2');
+    src: url('/fonts/Migha-Black.otf') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
     font-family: 'MighaBold';
-    src: url('fonts/Migha-Bold.otf') format('woff2');
+    src: url('/fonts/Migha-Bold.otf') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
